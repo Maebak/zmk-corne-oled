@@ -47,7 +47,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: FN}
-  - GLOBE
+  - Ctl+$$mdi:keyboard-space$$
   - system
   NUMBER:
   - $$mdi:keyboard-tab$$
