@@ -4,12 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
-    - name: eyelash
-      url-base: https://github.com/a741725193
   projects:
-    - name: eyelash_corne
-      remote: eyelash
-      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
