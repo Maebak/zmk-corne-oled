@@ -127,44 +127,29 @@
             key-positions = <1 15 29>;
         };
 
-        ctrl_c {
-            bindings = <&kp LC(C)>;
-            key-positions = <17 16>;
-        };
-
         clipboard_screenshot {
             bindings = <&kp LG(LC(LS(NUMBER_4)))>;
-            key-positions = <4 18>;
+            key-positions = <28 13>;
         };
 
         terminal {
             bindings = <&kp LG(LS(ENTER))>;
-            key-positions = <22 23>;
+            key-positions = <12 27>;
         };
 
         control_center {
             bindings = <&kp LC(LS(LEFT))>;
-            key-positions = <15 16>;
+            key-positions = <27 41>;
         };
 
         raycast {
             bindings = <&kp RG(SPACE)>;
-            key-positions = <23 24>;
+            key-positions = <39 38>;
         };
 
         lock_screen {
             bindings = <&kp LC(LG(Q))>;
-            key-positions = <0 1>;
-        };
-
-        aerospace_next {
-            bindings = <&kp RA(TAB)>;
-            key-positions = <23 9>;
-        };
-
-        aerospace_prev {
-            bindings = <&kp RA(LS(TAB))>;
-            key-positions = <17 3>;
+            key-positions = <0 13>;
         };
     };
 
@@ -222,7 +207,7 @@
         Shortcuts {
             bindings = <
 &kp TAB  &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(NUMBER_5)                        &trans          &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &trans  &kp BACKSPACE
-&trans   &kp LA(NUMBER_1)      &kp LA(NUMBER_2)      &kp LA(N3)            &kp LA(NUMBER_4)      &kp LA(N5)                      &trans  &trans  &trans  &trans            &kp LC(DOWN)      &kp LC(UP_ARROW)  &trans            &trans  &trans
+&trans   &kp LA(NUMBER_1)      &kp LA(NUMBER_2)      &kp LA(N3)            &kp LA(NUMBER_4)      &kp LA(N5)                      &trans  &trans  &trans  &kp RA(LS(TAB))   &kp LC(DOWN)      &kp LC(UP_ARROW)  &kp RA(TAB)       &none   &trans
 &trans   &kp LA(LS(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))  &kp LA(LS(NUMBER_5))  &trans            &trans          &trans            &kp RA(LEFT_ALT)  &kp RC(LCTRL)     &trans            &trans  &trans
                                                      &trans                &trans                &trans                                                  &trans            &trans            &trans
             >;
