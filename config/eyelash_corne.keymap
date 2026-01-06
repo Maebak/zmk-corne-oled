@@ -163,16 +163,16 @@
             bindings = <
 &studio_unlock  &sys_reset    &bootloader   &trans        &out OUT_USB                 &out OUT_BLE                                     &none                  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans           &trans           &trans           &trans
 &none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                 &bt BT_SEL 4                             &none   &none   &none          &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans
-&bt BT_CLR_ALL  &none         &none         &none         &none                        &none               &bt BT_CLR           &kp C_MUTE                  &none                          &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD
+&bt BT_CLR_ALL  &none         &none         &none         &none                        &none               &bt BT_CLR           &none                  &none                          &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD
                                             &trans        &rgb_ug RGB_COLOR_HSB(0,66,65)  &rgb_ug RGB_COLOR_HSB(0,0,100)                                       &trans           &trans           &trans
             >;
         };
 
         Shortcuts {
             bindings = <
-&kp TAB  &kp LG(NUMBER_1)       &kp LG(NUMBER_2)       &kp LG(NUMBER_3)       &kp LG(NUMBER_4)       &kp LG(NUMBER_5)                                &trans           &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &trans  &kp BACKSPACE
-&trans   &kp LA(NUMBER_1)       &kp LA(NUMBER_2)       &kp LA(N3)             &kp LA(NUMBER_4)       &kp LA(N5)                              &trans  &trans  &trans   &kp RA(LS(TAB))   &kp LC(DOWN)      &kp LC(UP_ARROW)  &kp RA(TAB)       &none   &trans
-&trans   &kp LA(LS(NUMBER_1))   &kp LS(LA(NUMBER_2))   &kp LS(LA(NUMBER_3))   &kp LS(LA(NUMBER_4))   &kp LA(LS(NUMBER_5))  &trans           &trans                   &trans            &kp RA(LEFT_ALT)  &kp RC(LCTRL)     &trans            &trans  &trans
+&kp TAB  &kp LG(NUMBER_1)       &kp LG(NUMBER_2)       &kp LG(NUMBER_3)       &kp LG(NUMBER_4)       &kp LG(NUMBER_5)                                &none           &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &trans  &kp BACKSPACE
+&trans   &kp LA(NUMBER_1)       &kp LA(NUMBER_2)       &kp LA(N3)             &kp LA(NUMBER_4)       &kp LA(N5)                              &none  &none  &none   &kp RA(LS(TAB))   &kp LC(DOWN)      &kp LC(UP_ARROW)  &kp RA(TAB)       &none   &trans
+&trans   &kp LA(LS(NUMBER_1))   &kp LS(LA(NUMBER_2))   &kp LS(LA(NUMBER_3))   &kp LS(LA(NUMBER_4))   &kp LA(LS(NUMBER_5))  &trans           &none                   &trans            &kp RA(LEFT_ALT)  &kp RC(LCTRL)     &trans            &trans  &trans
                                                        &trans                 &trans                 &trans                                                           &trans            &trans            &trans
             >;
         };
