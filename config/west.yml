@@ -7,15 +7,15 @@ manifest:
     - name: eyelash
       url-base: https://github.com/a741725193
   projects:
+    - name: eyelash_corne
+      remote: eyelash
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
     - name: zmk-nice-oled
       remote: mctechnology17
-      revision: main
-    - name: zmk-board-eyelash
-      remote: eyelash
       revision: main
   self:
     path: config
