@@ -35,6 +35,8 @@
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
             bindings = <&kp GRAVE>, <&kp CAPS>;
+
+            tapping-term-ms = <180>;
         };
 
         HMShiftL: HMShiftL {
