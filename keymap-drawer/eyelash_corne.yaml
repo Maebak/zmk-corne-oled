@@ -223,7 +223,7 @@ layers:
   - Ctl+$$mdi:arrow-down-bold$$
   - Ctl+$$mdi:arrow-up-bold$$
   - AltGr+$$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+$$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+Sft+1
