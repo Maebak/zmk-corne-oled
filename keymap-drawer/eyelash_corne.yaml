@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - Shortcuts
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: FN}
-  - $$mdi:apple-keyboard-option$$
+  - RIGHT GUI
   - $$mdi:apple-keyboard-control$$
   NUMBER:
   - $$mdi:keyboard-tab$$
@@ -234,8 +234,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
-  - AltGr+$$mdi:apple-keyboard-option$$
-  - Ctl+$$mdi:apple-keyboard-control$$
+  - {t: 'Gui+Sft+,', s: Gui+Sft+<}
+  - {t: Sft+Gui+., s: Sft+Gui+>}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
