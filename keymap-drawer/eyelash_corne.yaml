@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - <
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-esc$$', h: NUMBER}
+  - NUMBER
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: Shortcuts}
-  - FN
+  - {t: '$$mdi:keyboard-esc$$', h: FN}
   - RIGHT GUI
   NUMBER:
   - $$mdi:keyboard-tab$$
