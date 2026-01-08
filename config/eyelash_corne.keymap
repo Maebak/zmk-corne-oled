@@ -92,8 +92,8 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <150>;
-            quick-tap-ms = <70>;
+            tapping-term-ms = <170>;
+            quick-tap-ms = <90>;
             require-prior-idle-ms = <0>;
             hold-trigger-on-release;
         };
@@ -147,6 +147,15 @@
         };
     };
 
+    macros {
+        email: email {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp J &kp A &kp W &kp A &kp D &kp N1 &kp N1 &kp N8 &kp N8 &kp N7 &kp N7 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -196,10 +205,10 @@
 
         Shortcuts {
             bindings = <
-&kp TAB  &kp LG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)      &kp LG(NUMBER_5)                        &trans          &kp LG(NUMBER_6)  &kp LG(NUMBER_7)   &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &trans         &kp BACKSPACE
-&trans   &kp LA(NUMBER_1)      &kp LA(NUMBER_2)      &kp LA(N3)            &kp LA(NUMBER_4)      &kp LA(N5)                      &trans  &trans  &trans  &kp RA(LS(TAB))   &kp LC(DOWN)       &kp LC(UP_ARROW)  &kp RA(TAB)       &kp LC(SPACE)  &trans
-&trans   &kp LA(LS(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))  &kp LA(LS(NUMBER_5))  &trans            &trans          &kp CAPS          &kp LG(LS(COMMA))  &kp LS(LG(DOT))   &trans            &trans         &trans
-                                                     &trans                &trans                &trans                                                  &trans            &trans             &trans
+&kp TAB  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                    &trans          &kp LG(NUMBER_6)  &kp LG(NUMBER_7)   &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &trans         &trans
+&email   &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(N3)        &kp LA(NUMBER_4)  &kp LA(N5)                  &trans  &trans  &trans  &kp RA(LS(TAB))   &kp LC(DOWN)       &kp LC(UP_ARROW)  &kp RA(TAB)       &kp LC(SPACE)  &trans
+&trans   &none             &none             &none             &none             &none             &trans            &trans          &kp CAPS          &kp LG(LS(COMMA))  &kp LS(LG(DOT))   &trans            &trans         &trans
+                                             &trans            &trans            &trans                                              &trans            &trans             &trans
             >;
         };
     };
